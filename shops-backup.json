@@ -1,0 +1,137 @@
+﻿{
+  "shops": [
+    {
+      "id": "725572ad-9a50-4ffc-b969-eb9becb71053",
+      "name": "매니아하우스",
+      "base_url": "https://maniahouse.co.kr",
+      "search_url_template": "https://maniahouse.co.kr/product/search.html?keyword={keyword}",
+      "selectors": {
+        "product_container": "ul.prdList li",
+        "product_name": ".name a span",
+        "product_price": "strong.grid",
+        "product_link": ".name a",
+        "stock_status": null
+      },
+      "stock_patterns": null,
+      "enabled": true,
+      "verify_ssl": false,
+      "keyword_encoding": null,
+      "created_at": "2025-12-30T19:26:03.048284",
+      "updated_at": "2025-12-30T19:26:03.048299"
+    },
+    {
+      "id": "31e548f7-fa82-4102-848b-550899eff247",
+      "name": "조이하비",
+      "base_url": "https://www.joyhobby.co.kr",
+      "search_url_template": "https://www.joyhobby.co.kr/mall/search_new.asp?siteid=joyhobby&keyword={keyword}",
+      "selectors": {
+        "product_container": "td[width='240px'][valign='top']",
+        "product_name": "a",
+        "product_price": "b",
+        "product_link": "a",
+        "stock_status": null
+      },
+      "stock_patterns": null,
+      "enabled": true,
+      "verify_ssl": false,
+      "keyword_encoding": "euc-kr",
+      "created_at": "2025-12-30T19:41:41.325769",
+      "updated_at": "2025-12-30T19:41:41.325785"
+    },
+    {
+      "id": "e18f651e-587a-4812-96a0-22eb20c4fab4",
+      "name": "히어로타임",
+      "base_url": "https://herotime.co.kr",
+      "search_url_template": "https://herotime.co.kr/product/search.html?keyword={keyword}",
+      "selectors": {
+        "product_container": "ul.prdList li.xans-record-",
+        "product_name": ".description .name a",
+        "product_price": ".description ul li:first-child",
+        "product_link": ".description .name a",
+        "stock_status": null
+      },
+      "stock_patterns": null,
+      "enabled": true,
+      "verify_ssl": false,
+      "keyword_encoding": null,
+      "created_at": "2025-12-30T19:58:57.470649",
+      "updated_at": "2025-12-30T19:58:57.470664"
+    },
+    {
+      "id": "05187723-5323-456d-8690-0ea7b3631dd5",
+      "name": "래빗츠",
+      "base_url": "https://rabbits.kr",
+      "search_url_template": "https://rabbits.kr/product/search.html?keyword={keyword}",
+      "selectors": {
+        "product_container": "ul.prdList li.xans-record-",
+        "product_name": ".description .name a",
+        "product_price": ".description ul li:first-child",
+        "product_link": ".description .name a",
+        "stock_status": null
+      },
+      "stock_patterns": null,
+      "enabled": true,
+      "verify_ssl": false,
+      "keyword_encoding": null,
+      "created_at": "2025-12-30T19:59:03.643267",
+      "updated_at": "2025-12-30T19:59:03.643286"
+    },
+    {
+      "id": "b3ad77fe-44b0-4415-a1d4-b42c0e2277e2",
+      "name": "코믹스아트",
+      "base_url": "https://comics-art.co.kr",
+      "search_url_template": "https://comics-art.co.kr/product/search.html?keyword={keyword}",
+      "selectors": {
+        "product_container": "ul.prdList li.xans-record-",
+        "product_name": ".description .name a",
+        "product_price": ".description ul li:nth-child(2) span:nth-child(2)",
+        "product_link": ".description .name a",
+        "stock_status": null
+      },
+      "stock_patterns": null,
+      "enabled": true,
+      "verify_ssl": false,
+      "keyword_encoding": null,
+      "created_at": "2025-12-30T20:00:07.654356",
+      "updated_at": "2025-12-30T20:00:07.654376"
+    },
+    {
+      "id": "d40dff1f-f58b-4033-9016-738a013d538b",
+      "name": "건담붐",
+      "base_url": "https://www.gundamboom.com",
+      "search_url_template": "https://www.gundamboom.com/product/search.html?keyword={keyword}",
+      "selectors": {
+        "product_container": "dl[title]",
+        "product_name": "dd.name a",
+        "product_price": "dd.price p.right span",
+        "product_link": "dd.name a",
+        "stock_status": null
+      },
+      "stock_patterns": null,
+      "enabled": true,
+      "verify_ssl": false,
+      "keyword_encoding": "euc-kr",
+      "created_at": "2025-12-30T20:11:26.923150",
+      "updated_at": "2025-12-30T20:11:26.923171"
+    },
+    {
+      "id": "3e19de10-215d-489f-831a-c8756f14fc83",
+      "name": "네이버하비",
+      "base_url": "https://www.modelsale.com",
+      "search_url_template": "https://www.modelsale.com/modelsale/shop/search_more.php?idx1=0&search={keyword}",
+      "selectors": {
+        "product_container": "a[href*='poprec/detail.php']",
+        "product_name": ".",
+        "product_price": "+ td + td + td + td",
+        "product_link": ".",
+        "stock_status": null
+      },
+      "stock_patterns": null,
+      "enabled": true,
+      "verify_ssl": false,
+      "keyword_encoding": null,
+      "created_at": "2025-12-30T20:26:01.894712",
+      "updated_at": "2025-12-30T20:26:01.894732"
+    }
+  ]
+}
